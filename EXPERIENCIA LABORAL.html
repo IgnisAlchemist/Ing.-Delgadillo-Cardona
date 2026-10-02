@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto Delgadillo - Ingeniero en Sistemas Computacionales</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Hoja de Estilos Personalizada -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen text-slate-800 antialiased flex flex-col justify-start">
+
+    <!-- BARRA NAVEGACIÓN FIJA (Quedará visible al hacer scroll) -->
+    <nav class="navbar-fija">
+    <a href="index.html" 
+       title="Inicio"
+       class="border border-white/80 hover:bg-blue-600/60 text-white font-normal text-xs sm:text-sm px-2 sm:px-4 py-1.5 uppercase tracking-wider transition-colors rounded-none text-center truncate max-w-[70px] sm:max-w-none">
+        SOBRE MÍ
+    </a>
+<!-- Botón 2 -->
+    <a href="EXPERIENCIA LABORAL.html" 
+       title="Experiencia Laboral"
+       class="border border-white/80 hover:bg-white/10 text-white font-normal text-xs sm:text-sm px-2 sm:px-4 py-1.5 uppercase tracking-wider transition-colors rounded-none text-center truncate max-w-[70px] sm:max-w-none">
+        EXPERIENCIA LABORAL
+    </a>
+<!-- Botón 3 -->
+    <a href="HABILIDADES TECNICAS.html" 
+       title="Habilidades Técnicas"
+       class="border border-white/80 hover:bg-white/10 text-white font-normal text-xs sm:text-sm px-2 sm:px-4 py-1.5 uppercase tracking-wider transition-colors rounded-none text-center truncate max-w-[70px] sm:max-w-none">
+        HABILIDADES TÉCNICAS
+    </a>
+        <a href="COMPETENCIAS INTERPERSONALES.html"
+        title="Competencias Interpersonales"
+        class="border border-white/80 hover:bg-white/10 text-white font-normal text-xs sm:text-sm px-2 sm:px-4 py-1.5 uppercase tracking-wider transition-colors rounded-none text-center truncate max-w-[70px] sm:max-w-none">
+            COMPETENCIAS INTERPERSONALES
+        </a>
+    <a href="CV Roberto Carlos.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="border border-white/80 hover:bg-red-600/40 text-white font-normal text-xs sm:text-sm px-2.5 sm:px-4 py-1.5 uppercase tracking-wider transition-colors rounded-none text-center">
+            DESCARGAR CV .PDF
+        </a>
+    </nav>
+
+    <!-- HEADER / HERO SECTION -->
+    <header class="hero-bg relative text-white pb-20 pt-28 px-6 sm:px-12 md:px-16 min-h-[380px] flex flex-col justify-between">
+
+        <!-- Central Name & Title -->
+        <div class="text-center my-auto py-8">
+            <h1 class="text-3xl sm:text-4xl md:text-6xl font-extrabold text-white tracking-wide mb-4">
+                Roberto Delgadillo
+            </h1>
+            <p class="text-sm sm:text-base md:text-lg text-slate-00 font-medium tracking-widest uppercase">
+                INGENIERO EN SISTEMAS COMPUTACIONALES
+            </p>
+        </div>
+
+        <!-- Center Circular Profile Picture Overlapping Hero Header -->
+        <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 z-10">
+            <div class="w-32 h-32 sm:w-36 sm:h-36 rounded-full overflow-hidden border-2 border-white shadow-lg bg-gray-200">
+                <img 
+                    src="Ing Roberto Delgadillo.jpg" 
+                    alt="Roberto Delgadillo" 
+                    class="w-full h-full object-cover"
+                    onerror="this.src='https://placehold.co/200x200/333/FFF?text=Foto'"
+                />
+            </div>
+        </div>
+    </header>
+
+    <!-- Content Section with Light Background -->
+    <main class="bg-[#e7e7e7] pt-24 pb-28 px-6 sm:px-12 md:px-16 flex-grow">
+        <div class="max-w-5xl mx-auto">
+            
+
+    <!-- Encabezado con barra roja -->
+    <div class="mb-6">
+        <h2 class="text-xl sm:text-2xl font-bold uppercase text-black tracking-wide mb-3">EXPERIENCIA LABORAL</h2>
+        <div class="w-14 h-1.5 bg-[#d91414]"></div>
+    </div>
+
+    <!-- Contenido del puesto -->
+    <div class="bg-white/60 p-6 md:p-8 rounded-none border border-gray-300/80 shadow-sm">
+        <!-- Empresa y Cargo -->
+        <h3 class="text-lg md:text-xl font-bold text-slate-900">
+            Homedepot / Open Service: <span class="font-semibold text-slate-800">Supervisor STS</span>
+        </h3>
+        
+        <!-- Periodo -->
+        <p class="text-sm md:text-base font-semibold text-slate-600 mb-6 uppercase tracking-wide">
+            Abril del 2023 - AL PRESENTE
+        </p>
+
+        <!-- Párrafos descriptivos -->
+        <div class="space-y-4 text-slate-700 leading-relaxed text-sm md:text-base">
+            <p>
+                Innové los procesos de soporte en el equipo STS al desarrollar una aplicación web local (Web App), construida sobre una base de datos dinámica que yo mismo creé, lo que resultó en una centralización eficiente de la información.
+            </p>
+            <p>
+                La implementación de esta herramienta permitió a los técnicos bajo mi cargo acceder a los datos requeridos con mayor facilidad y rapidez, reduciendo el tiempo necesario para resolver reportes y minimizando el impacto en la productividad del asociado.
+            </p>
+        </div>
+    </div>
+
+<!-- EXPERIENCIA 2: APTIV -->
+<div class="bg-white/60 p-6 md:p-8 rounded-none border border-gray-300/80 shadow-sm mt-6">
+    <!-- Empresa y Cargo -->
+    <h3 class="text-lg md:text-xl font-bold text-slate-900">
+        APTIV: <span class="font-semibold text-slate-800">Team Leader / Supervisor / Soporte Técnico</span>
+    </h3>
+    
+    <!-- Periodo -->
+    <p class="text-sm md:text-base font-semibold text-slate-600 mb-6 uppercase tracking-wide">
+        Noviembre del 2015 - Agosto del 2022
+    </p>
+
+    <!-- Párrafos descriptivos -->
+    <div class="space-y-4 text-slate-700 leading-relaxed text-sm md:text-base">
+        <p>
+            <strong class="font-bold text-slate-900">Team Leader / Supervisor</strong> - Lideré y coordiné líneas de producción que iban desde 10 hasta más de 100 operadores, fomentando un clima laboral altamente colaborativo y manteniendo los estándares más altos de eficiencia y convivencia en planta.
+        </p>
+        <p>
+            Supervisé el cumplimiento de metas de producción en arneses de alta complejidad, garantizando el flujo continuo y la entrega en tiempo.
+        </p>
+        <p>
+            <strong class="font-bold text-slate-900">Soporte Técnico de Línea</strong> - Asignado como recurso clave para dar asistencia técnica e integral a todas las estaciones de la línea móvil (encintado, ensamblado y ruteado eficiente de cableado).
+        </p>
+        <p>
+            Encargado del diagnóstico, desensamble y reparación (rework) de componentes complejos fuera de especificación, asegurando la calidad final del producto.
+        </p>
+    </div>
+</div>
+
+    <!-- EXPERIENCIA 3: DIMEX -->
+<div class="bg-white/60 p-6 md:p-8 rounded-none border border-gray-300/80 shadow-sm mt-6">
+    <!-- Empresa y Cargo -->
+    <h3 class="text-lg md:text-xl font-bold text-slate-900">
+        DIMEX: <span class="font-semibold text-slate-800">Soporte Técnico y Sistemas</span>
+    </h3>
+    
+    <!-- Periodo -->
+    <p class="text-sm md:text-base font-semibold text-slate-600 mb-6 uppercase tracking-wide">
+        Agosto del 2022 - Abril del 2023
+    </p>
+
+    <!-- Párrafos descriptivos -->
+    <div class="space-y-4 text-slate-700 leading-relaxed text-sm md:text-base">
+        <p>
+            Fui un recurso clave y continuamente reconocido por mi destreza técnica al liderar nuevos proyectos. Brindé soporte técnico integral a los socios de DimeX, asegurando la continuidad operativa tanto en el corporativo como en campo, con un enfoque superior en la resolución proactiva de problemas.
+        </p>
+        <p>
+            Reconocido por una alta capacidad de resolución al ejecutar proyectos remotos periódicos y de misión crítica, incluyendo la actualización masiva de bases de datos y la realización de upgrades de hardware y software (instalación, desinstalación y gestión de antivirus).
+        </p>
+        <p>
+            Optimicé el setup de equipos mediante la gestión completa del ciclo de vida de la imagen (creación y despliegue de cargas), asegurando la estandarización y una rápida puesta en marcha de los dispositivos de la compañía, minimizando la interrupción del servicio.
+        </p>
+        <p>
+            Implementé y mantuve sistemas esenciales a través de la configuración y administración experta de perfiles en Active Directory y el Firewall.
+        </p>
+    </div>
+</div>
+
+
+</section>
+
+
+    <!-- BARRA NAVEGACIÓN FIJA INFERIOR -->
+    <nav class="navbar-fija-inferior">
+        <a href="index.html" class="border border-white/80 hover:bg-white/20 text-white font-normal text-xs sm:text-sm px-2.5 sm:px-4 py-1.5 tracking-wider transition-colors rounded-none text-center">
+            DelgadilloCardona@gmail.com
+        </a>
+
+        <!-- ABRIR WHATSAPP -->
+        <a href="https://wa.me/528188059429?text=Hola,%20me%20interesa%20contactarte%20por%20tu%20perfil%20profesional"
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="border border-white/80 hover:bg-green-600/40 text-white font-normal text-xs sm:text-sm px-2.5 sm:px-4 py-1.5 uppercase tracking-wider transition-colors rounded-none text-center">
+        CEL: 81-8805-9429
+       </a>
+    </nav>
+
+</body>
+</html>
+
+</body>
+</html>

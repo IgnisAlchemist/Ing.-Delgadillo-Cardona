@@ -1,0 +1,142 @@
+Adtoy ti code ti HTML ti paginamo a **`COMPETENCIAS INTERPERSONALES.html`** (wenno no kayatmo nga ibagastil a *Competencias Técnicas* a di pay magun-od).
+
+Agun-od ti mensahe a "Aun no está disponible, pero puedes descargar el CV por ahora" kasta met a adda ti direct nga botonn a mang-download ti CV-m, amin ket nadaiyag a nadisenio para iti Tailwind CSS a kapadpada ti estilot' sabali a pampaginam:
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto Delgadillo - Competencias Interpersonales</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Hoja de Estilos Personalizada -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen text-slate-800 antialiased flex flex-col justify-start">
+
+    <!-- BARRA NAVEGACIÓN FIJA -->
+    <nav class="navbar-fija">
+        <a href="index.html" 
+           title="Inicio"
+           class="border border-white/80 hover:bg-white/10 text-white font-normal text-xs sm:text-sm px-2 sm:px-4 py-1.5 uppercase tracking-wider transition-colors rounded-none text-center truncate max-w-[70px] sm:max-w-none">
+            SOBRE MÍ
+        </a>
+        <a href="EXPERIENCIA LABORAL.html" 
+           title="Experiencia Laboral"
+           class="border border-white/80 hover:bg-white/10 text-white font-normal text-xs sm:text-sm px-2 sm:px-4 py-1.5 uppercase tracking-wider transition-colors rounded-none text-center truncate max-w-[70px] sm:max-w-none">
+            EXPERIENCIA LABORAL
+        </a>
+        <a href="HABILIDADES TECNICAS.html" 
+           title="Habilidades Técnicas"
+           class="border border-white/80 hover:bg-white/10 text-white font-normal text-xs sm:text-sm px-2 sm:px-4 py-1.5 uppercase tracking-wider transition-colors rounded-none text-center truncate max-w-[70px] sm:max-w-none">
+            HABILIDADES TÉCNICAS
+        </a>
+        <a href="COMPETENCIAS INTERPERSONALES.html"
+           title="Competencias Interpersonales"
+           class="border border-white/80 hover:bg-blue-600/60 text-white font-normal text-xs sm:text-sm px-2 sm:px-4 py-1.5 uppercase tracking-wider transition-colors rounded-none text-center truncate max-w-[70px] sm:max-w-none">
+            COMPETENCIAS INTERPERSONALES
+        </a>
+        <a href="CV Roberto Carlos.pdf"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="border border-white/80 hover:bg-red-600/40 text-white font-normal text-xs sm:text-sm px-2.5 sm:px-4 py-1.5 uppercase tracking-wider transition-colors rounded-none text-center">
+            DESCARGAR CV .PDF
+        </a>
+    </nav>
+
+    <!-- HEADER / HERO SECTION -->
+    <header class="hero-bg relative text-white pb-20 pt-28 px-6 sm:px-12 md:px-16 min-h-[380px] flex flex-col justify-between">
+        <div class="text-center my-auto py-8">
+            <h1 class="text-3xl sm:text-4xl md:text-6xl font-extrabold text-white tracking-wide mb-4">
+                Roberto Delgadillo
+            </h1>
+            <p class="text-sm sm:text-base md:text-lg text-slate-100 font-medium tracking-widest uppercase">
+                INGENIERO EN SISTEMAS COMPUTACIONALES
+            </p>
+        </div>
+
+        <!-- Center Circular Profile Picture -->
+        <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 z-10">
+            <div class="w-32 h-32 sm:w-36 sm:h-36 rounded-full overflow-hidden border-2 border-white shadow-lg bg-gray-200">
+                <img 
+                    src="Ing Roberto Delgadillo.jpg" 
+                    alt="Roberto Delgadillo" 
+                    class="w-full h-full object-cover"
+                    onerror="this.src='https://placehold.co/200x200/333/FFF?text=Foto'"
+                />
+            </div>
+        </div>
+    </header>
+
+    <!-- Content Section -->
+    <main class="bg-[#e7e7e7] pt-24 pb-28 px-6 sm:px-12 md:px-16 flex-grow">
+        <div class="max-w-3xl mx-auto">
+            
+            <!-- Encabezado con barra roja -->
+            <div class="mb-8 text-center sm:text-left">
+                <h2 class="text-xl sm:text-2xl font-bold uppercase text-black tracking-wide mb-3">
+                    COMPETENCIAS INTERPERSONALES
+                </h2>
+                <div class="w-14 h-1.5 bg-[#d91414] mx-auto sm:mx-0"></div>
+            </div>
+
+            <!-- TARJETA MENSAJE GENERICO (EN CONSTRUCCIÓN) -->
+            <div class="bg-white/70 p-8 sm:p-12 rounded-none border border-gray-300/80 shadow-sm text-center relative overflow-hidden">
+                
+                <!-- Badge o Etiqueta -->
+                <div class="inline-flex items-center gap-2 bg-amber-50 border border-amber-200 text-amber-700 px-3.5 py-1 rounded-full text-xs font-semibold mb-6">
+                    <span class="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
+                    SECCIÓN EN ACTUALIZACIÓN
+                </div>
+
+                <h3 class="text-xl sm:text-2xl font-bold text-slate-900 mb-3">
+                    Esta sección aún no está disponible
+                </h3>
+
+                <p class="text-sm sm:text-base text-slate-600 max-w-lg mx-auto mb-8 leading-relaxed">
+                    Aun me encuentro estructurando el contenido detallado de esta área, pero puedes consultar o descargar mi currículum en formato PDF por ahora.
+                </p>
+
+                <!-- Botón de descarga destacado -->
+                <div>
+                    <a href="CV Roberto Carlos.pdf" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-semibold text-xs sm:text-sm px-6 py-3 uppercase tracking-wider transition-colors shadow-md">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                        Descargar CV en PDF
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <!-- BARRA NAVEGACIÓN FIJA INFERIOR -->
+    <nav class="navbar-fija-inferior">
+        <a href="mailto:DelgadilloCardona@gmail.com" class="border border-white/80 hover:bg-white/20 text-white font-normal text-xs sm:text-sm px-2.5 sm:px-4 py-1.5 tracking-wider transition-colors rounded-none text-center">
+            DelgadilloCardona@gmail.com
+        </a>
+
+        <!-- ABRIR WHATSAPP -->
+        <a href="https://wa.me/528188059429?text=Hola,%20me%20interesa%20contactarte%20por%20tu%20perfil%20profesional"
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="border border-white/80 hover:bg-green-600/40 text-white font-normal text-xs sm:text-sm px-2.5 sm:px-4 py-1.5 uppercase tracking-wider transition-colors rounded-none text-center">
+            CEL: 81-8805-9429
+        </a>
+    </nav>
+
+</body>
+</html>
+
+```
